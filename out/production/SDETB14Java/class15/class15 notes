@@ -1,0 +1,47 @@
+How to exclude packages:
+    double click the shift button
+    and type exclude and press enter
+    then from the popup window click on the plus button
+    and select the packages that you want to exclude
+How Java code is compiled/executed on a computer
+    we write the code in files with extension ,java
+    once we hit the run button a software program called compiler
+    checks the code for errors
+    and covert it to byte code
+    JVM another software program further converts this code to binary code
+    and this binary code is what is exclude on your computers
+Methods in Java:
+    Method is a block of code or some java statements grouped together
+Why we should learn about methods
+    Methods help us reduce the amount of code that we have to write
+    for example if a piece of code is being repeated again and again we can create a method for it and smiple
+    call that method whenever we need that logic again
+Syntax of creating a method:
+    we can create methods only inside a class
+    [datatype] [method name] [(datatype var name)][method body]
+    [datatype] can be void boolean String int etc.
+    [method name] are like var names
+    [(datatype var name)]
+How do we decide that should use void or a method with a return keyword
+    if we are building a method that will be used by others or in other parts of your code which
+    require some data from your method like an if condition we should not create methods with void type
+Types of variables with respect to their scope
+    There are three types if variables w.r.t their scope
+    local Variables- a variable that is created inside method loop switch case or any block of code is called local variable
+    for(int i=0;i<5;i++){
+    System.out.println(i);
+    }
+    intsance Variables- Which are declared outside a block of code but inside a class are called intsance variables
+    static Variables-if an instance variable has a keyword static with it it is called a static variable
+
+When we should use local var:
+    local variables occupy the computers memory for the shortest amount of time We should always go with local var
+    if it is possible
+When we should use instance variables:
+    When we are planning to create multiple objects of a class or we ant to share something in multiple
+    variables
+    Downsides are they keep on occupy the memory for longer as compared to local variables
+When to use Static variable:
+    When we need to share something across the objects we use static
+    Downside are it occupies the memory for the longest amount of time
+

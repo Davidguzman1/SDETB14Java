@@ -1,0 +1,40 @@
+What is inheritance:
+    It's a mechanism through which a class can inhabit the properties and methods of another class.
+Why we should learn inheritance:
+    it helps avoid code duplication.
+    it helps us save space
+    it helps us improve execution speed
+What is the syntax:
+    We use the extends keyword and the name of the class which we want to inherit the fields and methods while
+    declaring the class
+Types of inheritance:
+    There can be 4 types of inheritance but java only supports 3 in classes
+    1.Single inheritance
+    2.Multilevel inheritance
+    3.Hierarchical Inheritance
+    4.Multiple inheritance(Not Supported by classes in java)
+Single Inheritance:
+    When we have only one parent and one child class in inheritance it is called single inheritance
+    not widely used.
+MultiLevel Inheritance:
+    One top level and one base class and many intermediate classes
+    For example A<B<C<D
+Hierarchical Inheritance:
+    When there is a one parent class and multiple child classes
+Multiple inheritance:
+    One Child and multiple parent classes and it is not supported by java classes
+    It creates the diamond problem
+Super Keyword:
+    We use the super keyword to explicitly call the variable from the parent class when we have same
+    name instance variables in child class.
+    We can also use the super keyword to call the constructor of the parent class
+=========================================================================================================================
+Method Overloading:
+    Method overloading allows us to create multiple methods in a class with the same name.
+Why we should create multiple methods with same name
+    It gives the end user flexibility
+    The end user can call the same method with different parameters to get same or different results
+How do we Overload a method:
+    1.By passing different number of parameters
+    2.By changing the Data type
+    3.By changing the sequence of parameters
