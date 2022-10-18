@@ -1,0 +1,35 @@
+Method Overriding:
+    Method overriding allows us to have same header methods in parent child classes.
+Why we should override:
+    When we inherit from a class everything other than private methods and constructors is inherited
+    if we don't like any methods from the parent we can override
+    It helps us achieve polymorphism
+What is the syntax to override a method:
+    1. First there must be a parent child relationship
+    2. In child class just redefine the method
+TypeCasting in objects:
+    As we cab type cast primitive data types we can also type cast objects
+    like store the object of a child class in a variable of a parent type
+Why we should type cast objects:
+    with the hello of typecasting we can start storing the objects of child classes in an array of types parent
+What is the syntax to type cast
+    it is the same as primitive type casting for example if we have an animal class has a child class Cat
+    we can do
+    Animal animal=new Cat();
+Polymorphisim:
+    polymorphism is the ability of a method to take on many forms based on the object or parameters
+    that we pass to the method
+Types of polymorphism
+    there are two types of polymorphisim
+    1.Compile time/static/early binding
+    2.run time/dynamic/late binding
+    Compile time:
+    When we use method overloading to achieve polymorphism it is called compile time
+    run time/dynamic/late bind:
+    When we use method overriding to achieve polymorphism then it is called run time polymorphism
+final keyword:
+    Final keyword is just like any other keyword in java like class package and void etc.
+    There three man uses of final keyword
+    1.if we use final with a class no other class can inherit from that class
+    2.if we use it with a method name no child class can override that method
+    3.if we use it in a field once the value has been assigned to that field no one can change its value afterwards
