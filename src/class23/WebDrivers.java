@@ -1,12 +1,12 @@
 package class23;
 
-public interface WebDriver {
+public interface WebDrivers {
     void openBrowser();
     void maximizeWindow();
     void findElement();
     void closeBrowser();
 }
-class ChromeDriver implements WebDriver {
+class ChromeDriver implements WebDrivers {
     @Override
     public void openBrowser() {
 
@@ -27,7 +27,7 @@ class ChromeDriver implements WebDriver {
 
     }
 }
-class FireFoxDriver implements WebDriver{
+class FireFoxDriver implements WebDrivers{
 
     @Override
     public void openBrowser() {
